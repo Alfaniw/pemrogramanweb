@@ -1,0 +1,12 @@
+[
+    {
+        "Nama" : "Bibit Padi",
+        "Gambar" : "gambar/p.jpg",
+        "Harga" : "Rp.75.000"
+    },
+    {
+        "Nama" : "Bibit Cabai",
+        "Gambar" : "gambar/c.jpg",
+        "Harga" : "Rp.87.500"
+    }
+]

@@ -1,0 +1,53 @@
+main {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  main section {
+    background-color: white;
+    width: 33.3%;
+    float: left;
+  }
+  main section h3 {
+    padding: 5px;
+  }
+  main section article {
+    padding: 5px;
+  }
+  main section h5 {
+    padding: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main {
+      padding: 0;
+    }
+    main section {
+      width: 50%;
+    }
+    main section h3 {
+      padding: 5px;
+    }
+    main section article {
+      padding: 5px;
+    }
+    main section h5 {
+      padding: 5px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    body {
+      padding: 0;
+    }
+    h3 {
+        padding: 5px;
+      }
+    
+      article {
+        padding: 5px;
+      }
+    
+      h5 {
+        padding: 5px;
+      }
+    }
