@@ -1,0 +1,74 @@
+[
+    {
+    "id" : 1,
+    "judul" : "PADI SERTANI",
+    "harga" : "Rp. 78.000,-",
+    "img" : "/images/p.jpg",
+    "cara" : [{
+        "id" : 1,
+        "langkah" : "1. Lakukan penyiangan daloan 2 minggu sekali"
+    },
+    {
+        "id" : 2,
+        "langkah" : "2. Lakukan pengairan yang wajar supaya tidak kelebihan dan kekurangan"
+    },
+    {
+        "id" : 3,
+        "langkah" : "3. Lakukan pemupukan setelah 7-15 hari"
+    }]
+    },
+    {
+        "id" : 2,
+        "judul" : "CABAI MAGHMA F1",
+        "harga" : "Rp. 65.000,-",
+        "img" : "/images/c.jpg",
+        "cara" : [{
+            "id" : 1,
+            "langkah" : "1. Pemberian Pupuk"
+        },
+        {
+            "id" : 2,
+            "langkah" : "2. Lakukan penyiraman secara rutin sehari sekali"
+        },
+        {
+            "id" : 3,
+            "langkah" : "3. Lakukan pewnyiangan untuk merawat tanaman cabai agar bersih dan terhindar dari penyakit atau hama"
+        }]
+    },
+    {
+        "id" : 3,
+        "judul" : "Benih Padi Mapan P-05",
+        "harga" : "Rp. 60.000,-",
+        "img" : "/images/a.jpg/",
+        "cara" : [{
+            "id" : 1,
+            "langkah" : "1. Pemberian Pupuk"
+        },
+        {
+            "id" : 2,
+            "langkah" : "2. Lakukan penyiraman secara rutin sehari sekali"
+        },
+        {
+            "id" : 3,
+            "langkah" : "3. Lakukan pewnyiangan untuk merawat tanaman cabai agar bersih dan terhindar dari penyakit atau hama"
+        }]
+    },
+    {
+        "id" : 5,
+        "judul" : "Benih Padi Intani-301",
+        "harga" : "Rp. 50.000,-",
+        "img" : "/images/Padi-Hibrida-Intani-301.jpg/",
+        "cara" : [{
+            "id" : 1,
+            "langkah" : "1. Pemberian Pupuk"
+        },
+        {
+            "id" : 2,
+            "langkah" : "2. Lakukan penyiraman secara rutin sehari sekali"
+        },
+        {
+            "id" : 3,
+            "langkah" : "3. Lakukan pewnyiangan untuk merawat tanaman cabai agar bersih dan terhindar dari penyakit atau hama"
+        }]
+    }
+]

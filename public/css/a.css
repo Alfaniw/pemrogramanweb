@@ -1,0 +1,237 @@
+body {
+  background: yellowgreen;
+  color: black;
+  margin: auto;
+  width: 100%;
+}
+
+
+nav {
+  margin: auto;
+  height: 48px;
+}
+
+ul {
+  margin: auto;
+}
+
+nav ul ul {
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+  width: 10%;
+}
+
+nav ul {
+  background: #0099FF;
+  padding: 0.5px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+}
+
+nav ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+nav ul li {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+nav ul li:hover {
+  background: #0066FF;
+}
+
+nav ul li:hover a {
+  color: #fff;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+  width: 10%;
+}
+
+nav ul ul {
+  background: #0099FF;
+  border-radius: 0px;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+}
+
+nav ul ul li {
+  float: none;
+  border-top: 1px solid #0099FF;
+  border-bottom: 1px solid #0099FF;
+  position: relative;
+}
+
+nav ul ul li a {
+  padding: 15px 20px;
+  color: #fff;
+}
+
+nav ul ul li a:hover {
+  background: #0066FF;
+}
+
+nav ul li .search {
+  width: 200px;
+  padding: 8px 15px;
+  background-color: #fafafa;
+  border: 5px solid #53bd84;
+}
+nav ul li .button {
+  position: relative;
+  padding: 7px 15px;
+  left: -7px;
+  border: 6px solid #53bd84;
+  background-color: #53bd84;
+  color: #fafafa;
+}
+
+
+nav ul li .button:hover {
+  background-color: #fafafa;
+  color: #53bd84;
+}
+
+.nama {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main {
+  margin: auto;
+}
+
+
+
+.container {
+  width: 950px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.barang {
+  width: 67%;
+  padding-right: auto;
+  padding-left: 38px;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  background-color: white;
+  overflow: hidden;
+}
+.barang h2 {
+  color: crimson;
+  border-bottom: 1px solid gainsboro;
+  margin: 5px;
+  margin-bottom: 13px;
+}
+
+.list-produk {
+  border: 1px solid gainsboro;
+  padding: 5px;
+  float: left;
+  width: 200px;
+  margin: 5px;
+  height: auto;
+}
+
+.list-produk:hover {
+  transition-duration: 700ms;
+  box-shadow: 5px 5px gainsboro;
+}
+
+.list-produk img {
+  width: 100%;
+  height: 175px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.list-produk h4, .list-produk h5 {
+  color: crimson;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.tombol {
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 7px;
+  display: block;
+  float: left;
+  width: 30%;
+  margin: 4px;
+  text-align: center;
+  color: white;
+}
+
+.tombol:hover {
+  background-color: black;
+  transition-duration: 700ms;
+}
+
+.tombol-detail {
+  background-color: green;
+}
+
+.tombol-beli {
+  background-color: crimson;
+}
+
+#footer {
+  width: 100%;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  background: #1d444e;
+  clear: both;
+  padding: 0.2px;
+}
+
+#t {
+  width: 100%;
+  background-color: #779da9;
+  clear: both;
+}
+
+#tk {
+  width: 98%;
+  padding: 1%;
+  color: #fafafa;
+}
+
+#k {
+  float: left;
+  width: 20%;
+  padding: 1%;
+  color: black;
+}
+
+.t {
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #fafafa;
+}
+
+/*# sourceMappingURL=a.css.map */
